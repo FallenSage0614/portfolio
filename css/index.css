@@ -172,14 +172,18 @@ body {
 	transform: scale(1.1, 1.1);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
 	#profile-section {
 		display: block;
+		align-items: center;
+		justify-content: center;
 	}
 
 	#introduction-div {
 		display: block;
+		width: max-content;
 		/* vertical-align: unset; */
+
 		margin-top: 50px;
 	}
 	.introduction-sub-div {
